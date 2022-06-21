@@ -39,3 +39,31 @@ int main() {
     }
     cout << total_dist / (float)count << endl;
 }
+
+/*
+#include<iostream>
+#include<math.h>
+#include<vector>
+#include<iomanip>
+#include<stdio.h>
+using namespace std;
+
+int main() {
+	int n;
+	cin >> n;
+	vector<int> x(n);
+	vector<int> y(n);
+	double sum = 0.00000000000;
+	
+	for (int i = 0; i < n; i++) {
+		cin >> x.at(i) >> y.at(i);
+	}
+
+	for (int i = 0; i < n; i++) {
+		for (int j = 0; j < n; j++) {
+			sum += sqrt((x.at(i) - x.at(j)) * (x.at(i) - x.at(j)) + (y.at(i) - y.at(j)) * (y.at(i) - y.at(j)));
+		}
+	}
+	printf("%f", sum / n);
+}
+*/
