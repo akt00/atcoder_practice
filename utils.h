@@ -7,4 +7,15 @@ int mod(int arg, int n) {
 	else return arg % n;
 }
 
+// parser: 1111 -> {1, 1, 1, 1}
+void ParseConsecutiveInt(vector<int>& row, int input) {
 
+	int count = 1;
+	while (true) {
+		int val = input % 10;
+		row[row.size() - count] = val;
+		input /= 10;
+		count++;
+		if (input <= 0) return;
+	}
+}
