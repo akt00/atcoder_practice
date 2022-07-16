@@ -1,2 +1,5 @@
 # atcoder_practicee
-Repository for atcoder practice
+Repository for Atcoder competitive programming problem sovling practice
+
+# Purpose 
+Study
