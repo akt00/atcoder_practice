@@ -2,4 +2,4 @@
 Repository for Atcoder competitive programming problem sovling practice
 
 # Purpose 
-Study
+Self-study
